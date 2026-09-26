@@ -4,17 +4,17 @@
   <img src="Assets/01-dashboard.png" alt="Dashboard Preview">
 </p>
 
-Oculus is an AI-powered attendance and security system. It uses live cameras to recognize faces, track people, and send instant alerts. No badges or fingerprints needed — just a camera.
+Oculus is an advanced computer vision platform designed for seamless attendance tracking and facility security. By utilizing real-time camera feeds, it provides automated facial recognition, personnel tracking, and instant security alerts without the need for physical badges or biometric scanners.
 
-## 📸 Gallery
+## System Interface Gallery
 
-### Core Dashboard & Analytics
+### Dashboard & Analytics
 <p align="center">
   <img src="Assets/08-analytics.png" alt="Analytics" width="49%">
   <img src="Assets/10-reports.png" alt="Reports" width="49%">
 </p>
 
-### Real-Time Detection & Cameras
+### Detection & Camera Management
 <p align="center">
   <img src="Assets/03-camera-sections.png" alt="Camera Sections">
 </p>
@@ -23,7 +23,7 @@ Oculus is an AI-powered attendance and security system. It uses live cameras to 
   <img src="Assets/13-cross-check.png" alt="Cross Check" width="49%">
 </p>
 
-### Security & Alerts
+### Security & Alert Systems
 <p align="center">
   <img src="Assets/06-security-alert.png" alt="Security Alert" width="49%">
   <img src="Assets/11-watchdogs.png" alt="WatchDogs" width="49%">
@@ -36,7 +36,7 @@ Oculus is an AI-powered attendance and security system. It uses live cameras to 
 </p>
 
 <details>
-<summary><b>View More Screenshots</b></summary>
+<summary><b>View Additional Interfaces</b></summary>
 <br>
 <p align="center">
   <img src="Assets/05-alert.png" alt="Alert">
@@ -51,46 +51,46 @@ Oculus is an AI-powered attendance and security system. It uses live cameras to 
 
 ---
 
-## ⚡ What It Does
+## Key Features
 
-- **Face Recognition** — Spots and identifies employees in real time using YOLOv11 and AdaFace.
-- **Attendance Tracking** — Logs check-in and check-out times automatically, with late/early/overtime calculation.
-- **Security Alerts** — Warns staff about intruders, blacklisted people, masked faces, suspicious bags, and after-hours activity.
-- **Anti-Spoofing** — Blocks fake attempts using photos or videos of a face.
-- **Works in Low Light** — Automatically boosts dark video frames so people are still detected at night.
-- **Smart Camera Setup** — New cameras can auto-tune themselves just from one snapshot.
-- **Keeps Learning** — The system slowly improves its own accuracy over time from real footage.
-- **Cross-Check Tool** — Re-run old recordings through the AI to double-check who really showed up.
-- **Live Dashboard** — A clean web dashboard with charts, alerts, and employee history.
-- **Multi-Branch Support** — Works across multiple office locations, each with its own timezone.
+- **Real-Time Facial Recognition:** Identifies personnel instantly using optimized YOLOv11 and AdaFace models.
+- **Automated Attendance:** Logs entry and exit times with precision, automatically calculating late arrivals, early departures, and overtime.
+- **Proactive Security Alerts:** Notifies administrators regarding unauthorized intrusions, blacklisted individuals, masked faces, suspicious baggage, and irregular after-hours activity.
+- **Anti-Spoofing Mechanisms:** Detects and blocks fraudulent authentication attempts using photographs or pre-recorded videos.
+- **Low-Light Enhancement:** Dynamically adjusts underexposed video frames to ensure reliable detection during nighttime or in poorly lit environments.
+- **Automated Camera Calibration:** Simplifies deployment by enabling new cameras to configure themselves based on a single reference frame.
+- **Continuous Learning:** The recognition pipeline progressively refines its accuracy based on historical environmental data.
+- **Historical Auditing:** Allows administrators to process archived footage through the AI pipeline to verify attendance records retrospectively.
+- **Centralized Dashboard:** A comprehensive web interface for managing analytics, monitoring alerts, and reviewing personnel histories.
+- **Multi-Branch Scalability:** Designed to operate across diverse geographical locations with distinct timezone configurations.
 
-## 🛠 Tech Stack
+## Technical Stack
 
-- **AI / Vision:** YOLOv11, ByteTrack, AdaFace, MediaPipe
-- **Backend:** FastAPI (Python)
-- **Frontend:** Next.js 15
-- **Database:** PostgreSQL + pgvector
-- **Infrastructure:** Docker, Redis, Celery
+- **Computer Vision:** YOLOv11, ByteTrack, AdaFace, MediaPipe
+- **Backend Infrastructure:** FastAPI (Python)
+- **Frontend Architecture:** Next.js 15
+- **Database Systems:** PostgreSQL paired with pgvector for efficient similarity search
+- **Deployment & Orchestration:** Docker, Redis, Celery
 
-## ⚙️ How It Works (Simple Version)
+## System Workflow
 
-1. A camera captures a live video feed.
-2. The system detects people and faces in each frame.
-3. Faces are matched against enrolled employees.
-4. Attendance is logged, or an alert is sent if something looks suspicious.
-5. Everything shows up live on the dashboard.
+1. The system ingests a continuous video stream from integrated cameras.
+2. The vision pipeline processes each frame to detect individuals and extract facial embeddings.
+3. Extracted embeddings are cross-referenced with the enrolled personnel database.
+4. The backend records attendance metrics or triggers appropriate security protocols based on the identification results.
+5. All data is visualized in real-time on the centralized administrative dashboard.
 
-## ✨ Key Highlights
+## Core Advantages
 
-- Runs on regular IP cameras (RTSP, ONVIF, USB, and more).
-- Supports NVIDIA, AMD, and Intel GPUs — or plain CPU.
-- Role-based access so only the right people see sensitive data.
-- Built for real-world messiness: bad lighting, cheap cameras, and unstable WiFi.
+- **Hardware Agnostic:** Compatible with standard IP cameras via RTSP, ONVIF, USB, and other standard protocols.
+- **Flexible Compute:** Supports acceleration on NVIDIA, AMD, and Intel GPUs, with a fallback to CPU-only execution.
+- **Granular Security:** Implements role-based access control (RBAC) to ensure sensitive data is only accessible to authorized personnel.
+- **Robust Operation:** Engineered to perform reliably despite real-world constraints such as suboptimal lighting, legacy camera hardware, and network instability.
 
 ---
 
-## 🔒 Note
+## Intellectual Property Notice
 
-This project is shared here only to show my work. The code, setup details, and internal logic are private and not open source. Please don't copy, reuse, or redistribute any part of this project without permission.
+This repository serves exclusively as a portfolio demonstration. The underlying source code, configuration files, and proprietary logic remain strictly confidential and are not distributed as open-source software. Unauthorized reproduction, modification, or redistribution of any materials within this repository is strictly prohibited.
 
 © All rights reserved.
