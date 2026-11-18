@@ -9,31 +9,31 @@ Oculus is an advanced computer vision platform designed for seamless attendance 
 ## System Interface Gallery
 
 ### Dashboard & Analytics
-<p align="center">
-  <img src="Assets/08-analytics.png" alt="Analytics" width="49%">
-  <img src="Assets/10-reports.png" alt="Reports" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/08-analytics.png" alt="Analytics" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/10-reports.png" alt="Reports" width="100%"></td>
+</tr></table>
 
 ### Detection & Camera Management
 <p align="center">
   <img src="Assets/03-camera-sections.png" alt="Camera Sections">
 </p>
-<p align="center">
-  <img src="Assets/04-detection-log.png" alt="Detection Log" width="49%">
-  <img src="Assets/13-cross-check.png" alt="Cross Check" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/04-detection-log.png" alt="Detection Log" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/13-cross-check.png" alt="Cross Check" width="100%"></td>
+</tr></table>
 
 ### Security & Alert Systems
-<p align="center">
-  <img src="Assets/06-security-alert.png" alt="Security Alert" width="49%">
-  <img src="Assets/11-watchdogs.png" alt="WatchDogs" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/06-security-alert.png" alt="Security Alert" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/11-watchdogs.png" alt="WatchDogs" width="100%"></td>
+</tr></table>
 
 ### Employee Management
-<p align="center">
-  <img src="Assets/02-employee-section.png" alt="Employee Section" width="49%">
-  <img src="Assets/09-shifts.png" alt="Shifts" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/02-employee-section.png" alt="Employee Section" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/09-shifts.png" alt="Shifts" width="100%"></td>
+</tr></table>
 
 <details>
 <summary><b>View Additional Interfaces</b></summary>
